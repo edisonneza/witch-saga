@@ -8,11 +8,11 @@ class WitchSaga {
         this._people = people;
     }
 
-     /**
-      * Check if person object is valid
-      * @param person of type Person
-      * @returns true or false
-      */
+    /**
+     * Check if person object is valid
+     * @param person of type Person
+     * @returns true or false
+     */
     private IsPersonValid(person: Person): boolean {
         if (IsNegative(person.yearOfDeath) || IsNegative(person.ageOfDeath))
             return false;
@@ -48,7 +48,7 @@ class WitchSaga {
         // etc
         //[1, 2, 4, 7, 12, 20, 33, 54, 88 ...]
         let array = [];
-        
+
         for (let x = 1; x <= year; x++) {
             if (x == 1 || x == 2) //no calculation if 1 or 2
                 array.push(x)
@@ -69,15 +69,15 @@ class WitchSaga {
     public FindAverageOfPeopleKilled(): number {
         if (!this.IsValid())
             return -1;
-    
+
         var yearOfPersonA = this._people.personA.yearOfDeath - this._people.personA.ageOfDeath;
         var yearOfPersonB = this._people.personB.yearOfDeath - this._people.personB.ageOfDeath;
-    
+
         console.log("person A:" + this.GetNumberOfPeopleKilled(yearOfPersonA));
         console.log("person B:" + this.GetNumberOfPeopleKilled(yearOfPersonB));
-    
+
         console.log("Average: " + GetAverage(this.GetNumberOfPeopleKilled(yearOfPersonA), this.GetNumberOfPeopleKilled(yearOfPersonB)));
-        
+
 
         const average = GetAverage(this.GetNumberOfPeopleKilled(yearOfPersonA), this.GetNumberOfPeopleKilled(yearOfPersonB));
 

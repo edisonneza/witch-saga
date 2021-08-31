@@ -1,2 +1,7 @@
-# witch-saga
-Solving the problem of the witch in the village
+# Witch Saga: Return of The Coder!
+
+## I hope that village is free now 😊
+
+<br/>
+
+&copy; Edison Neza - 2021
