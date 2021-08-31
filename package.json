@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.13",
+        "babel-loader": "^8.2.2",
+        "ts-loader": "^9.2.5",
+        "typescript": "^4.4.2",
+        "webpack": "^5.21.2",
+        "webpack-cli": "^4.5.0"
+    }
+}
