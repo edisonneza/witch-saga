@@ -4,6 +4,9 @@
 
 <br/>
 
+## In "<b><i>dotnet</i></b>" folder you'll find the solution in console app using .Net 5
+<br/>
+
 ### Demo site: https://edisonneza.github.io/witch-saga/
 <br/>
 
