@@ -10,4 +10,13 @@
 ### Demo site: https://edisonneza.github.io/witch-saga/
 <br/>
 
+## Demo images:
+Console App .Net 5
+
+![dotnet](https://raw.githubusercontent.com/edisonneza/witch-saga/gh-pages/demo/Witch%20Saga%20Demo%20Image%20dotnet%205.PNG)
+
+Web app using Typescript
+
+![web typescript](https://raw.githubusercontent.com/edisonneza/witch-saga/gh-pages/demo/Witch%20Saga%20Demo%20Image.PNG)
+
 &copy; Edison Neza - 2021
